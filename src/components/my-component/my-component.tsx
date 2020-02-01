@@ -30,8 +30,6 @@ export class MyComponent {
       };
     });
 
-    this.store.mapDispatchToProps(this, { setUserName });
-    
   }
   
   render() {

@@ -37,7 +37,7 @@ import 'cb-user-list/';
 ```
 然后在render的JSX中添加web component的consume code
 ```
-<my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+<my-component></my-component>
 ```
 
 ### 在vuejs中使用
@@ -54,5 +54,5 @@ applyPolyfills().then(() => {
 2. 在template中使用web component
 可以直接在vue的component中添加web component的consume code
 ```
-<my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+<my-component></my-component>
 ```
